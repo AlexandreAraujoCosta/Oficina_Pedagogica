@@ -42,6 +42,25 @@ resultado ruim nesta atividade: o assistente conversa de forma superficial e pod
 inventar o que não aconteceu na conversa. Leia a avaliação antes de colá-la como
 entrega, e peça a correção se ela atribuir ao estudante algo que ele não disse.
 
+## Por um agente
+
+Os mesmos três assistentes rodam num agente (Claude Code, ou o VS Code com uma
+extensão em modo agente). O agente clona esta oficina na pasta do estudante, lê o
+`AGENTS.md` e o texto do assistente em `assistentes/`, e conduz a conversa na
+própria sessão. O pedido que se cola no agente está na
+[página da oficina](https://claude.ai/artifact/JagCaPZjYaNJDF4PMAkwgL), com um
+clique para copiar.
+
+O que muda em relação ao chat: o rascunho é um arquivo da pasta, e não texto
+colado; o agente mantém um registro da conversa, rodada a rodada, de onde sai a
+nota sobre a conversa, em vez de reconstruí-la de memória; e a avaliação com a
+nota saem num arquivo de entrega. Os textos em `assistentes/` são cópias dos
+prompts portáteis, geradas por `scripts/montar_assistentes.py`: a fonte de cada
+um é o repositório do assistente, ou o artifact, no caso do Miguel.
+
+**Este formato não foi testado.** Não houve conversa de aula nem medição com ele,
+e o registro da conversa é uma hipótese sobre como tornar a nota mais fiel.
+
 ## Autoria e estado
 
 Concepção, critérios e prompts: Alexandre Araújo Costa, Universidade de Brasília.

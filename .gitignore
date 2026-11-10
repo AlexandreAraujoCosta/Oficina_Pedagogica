@@ -1,0 +1,11 @@
+# Trabalhos de estudante e conversas de aula nao sobem.
+entregas/
+conversas/
+
+*.bak
+*.bak-*
+*.orig
+__pycache__/
+.DS_Store
+Thumbs.db
+desktop.ini

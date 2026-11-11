@@ -17,7 +17,8 @@ rascunho, ou cola o texto. Leia o arquivo; não o altere e não grave nada ao la
 dele. No Miguel não há rascunho: o estudante decide o caso na conversa.
 
 **O registro.** Antes da primeira fala, crie `registro-<nome>.md` na pasta do
-estudante. Depois de cada resposta dele e antes da sua fala seguinte, acrescente
+estudante e, logo depois de falar, registre a sua primeira fala como rodada 0: o
+que você apontou no rascunho e o que perguntou. Depois de cada resposta dele e antes da sua fala seguinte, acrescente
 uma linha com: o número da rodada; o assunto; o que você pediu; o que ele fez
 (respondeu, discordou, corrigiu você, trouxe um ponto novo, pediu que você
 escrevesse); se você recusou escrever ou escreveu algo no lugar dele, e o quê; se
@@ -29,8 +30,11 @@ durante a conversa.
 **A entrega.** Quando o texto do assistente mandar escrever a avaliação e a nota,
 mostre-as na sessão, peça a conferência que o texto manda, corrija o que o
 estudante apontar e só então grave `entrega-<nome>.md` com a avaliação e a nota,
-sem a conversa. Diga o caminho do arquivo: é o estudante que entrega. Antes de escrever, releia o registro e, para cada coisa que você atribui ao
-estudante (uma fala, uma observação, uma correção, uma ideia), ache a linha em
+sem a conversa. Diga o caminho do arquivo: é o estudante que entrega. Não escreva que o estudante fez algo "por conta própria", "sem que você
+apontasse" ou "antes de você tocar no assunto" sem antes buscar o assunto no
+registro, da rodada 0 em diante: só vale se a primeira vez em que ele aparece for
+uma fala do estudante. Antes de escrever, releia o registro e, para cada coisa
+que você atribui ao estudante (uma fala, uma observação, uma correção, uma ideia), ache a linha em
 que ela aparece e confira quem a disse. Os trechos do rascunho, na conversa e na
 avaliação, saem de uma busca no arquivo (por exemplo, `grep`) e são copiados do
 resultado, nunca digitados de memória; se não achar o trecho, descreva sem aspas.

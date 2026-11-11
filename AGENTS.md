@@ -29,9 +29,11 @@ durante a conversa.
 **A entrega.** Quando o texto do assistente mandar escrever a avaliação e a nota,
 mostre-as na sessão, peça a conferência que o texto manda, corrija o que o
 estudante apontar e só então grave `entrega-<nome>.md` com a avaliação e a nota,
-sem a conversa. Diga o caminho do arquivo: é o estudante que entrega. Os trechos
-do rascunho citados na avaliação saem de uma releitura do arquivo, copiados
-palavra por palavra; se não puder copiar, descreva sem aspas.
+sem a conversa. Diga o caminho do arquivo: é o estudante que entrega. Antes de escrever, releia o registro e, para cada coisa que você atribui ao
+estudante (uma fala, uma observação, uma correção, uma ideia), ache a linha em
+que ela aparece e confira quem a disse. Os trechos do rascunho, na conversa e na
+avaliação, saem de uma busca no arquivo (por exemplo, `grep`) e são copiados do
+resultado, nunca digitados de memória; se não achar o trecho, descreva sem aspas.
 
 **O que você não faz.** Não escreve nem sugere redação para o texto do estudante,
 nem em arquivo. Não pesquisa na web e não roda programas, além de ler o rascunho

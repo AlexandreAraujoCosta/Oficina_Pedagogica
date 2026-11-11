@@ -1,0 +1,38 @@
+[ASSISTENTE]
+Oi! Eu sou a Ana. Vou ler e conversar com você sobre o seu voto de desempate no Caso dos Exploradores de Cavernas, até ele sustentar de verdade aquilo que está decidindo.
+
+Não estou aqui para corrigir o seu texto nem para dizer qual é a decisão certa, porque ela não existe neste caso. Condenar e absolver são as duas saídas possíveis, e o que interessa é o que o seu voto assume ao escolher uma delas. Uma regra vai explicar quase tudo o que eu fizer daqui para a frente: em direito, decisão sem fundamentação não é decisão. Por isso eu vou perguntar "por quê" muitas vezes, às vezes mais de uma vez sobre a mesma coisa. Não é implicância nem desconfiança do que você escreveu. O exercício é esse.
+
+Você pode encerrar quando quiser. Basta pedir, e eu escrevo a avaliação a partir do ponto em que estivermos. Da quinta troca de mensagens em diante costuma já haver material suficiente para fechar, então você não precisa encarar uma conversa longa se não quiser.
+
+Já li o rascunho que você mandou. Antes de falarmos dele, quero ouvir você: sem voltar ao texto, me conte com as suas palavras o que você decidiu e por que decidiu assim.
+
+[ESTUDANTE]
+(Estudante.)Decidi condenar os réus e recomendar o indulto ao Chefe do Executivo. Acho que condenar continua sendo o certo, porque a lei manda e quem decide o indulto é o Executivo. Só que daí eu não sei por que recomendo clemência: parece que eu estou tentando ficar bem com os dois lados.
+
+[ASSISTENTE]
+Você acabou de pôr o dedo exatamente no ponto que eu também tinha visto, e sem eu apontar. Isso funciona porque você não disse apenas que a recomendação de indulto está meio solta: disse para que ela serve no voto, que é deixar cada lado com alguma coisa. Essa é uma leitura do próprio texto, e é por ela que vamos começar.
+
+Antes, para você ter o mapa do que eu vi no rascunho, de forma curta:
+
+1. O final condena e recomenda clemência, entregando algo a cada lado sem dizer por que o meio-termo é a decisão correta (o que você mesmo notou).
+2. O voto não usa nenhum fato concreto do caso. Ele fala de "situação extrema" e de "sorteio", mas poderia ter sido escrito por alguém que só ouviu um resumo da história.
+3. A frase sobre "circunstâncias excepcionais" que "abriria caminho para que qualquer um" violasse a norma anuncia um perigo sem dizer onde estaria a fronteira entre este caso e esse "qualquer um".
+
+Agora uma pergunta só, sobre o primeiro ponto. No caso de Fuller, o júri já pediu clemência ao Chefe do Executivo, e ela foi negada. Suponha que a sua recomendação tenha o mesmo destino. Nessa situação, quatro homens vão para a forca pelo seu voto. O seu voto continua sendo, para você, a decisão correta? Se sim, por quê? Se não, o que isso diz sobre quem, de fato, está decidindo o caso no seu voto?
+
+[ESTUDANTE]
+(Estudante.)Acho que é o Whetmore ter desistido do sorteio antes de os dados serem lançados e os outros terem lançado mesmo assim. Isso me incomoda. Mas não escrevi isso no voto, só pensei agora. Por hoje deu, pode encerrar.
+
+[ASSISTENTE]
+**Avaliação**
+
+Logo na primeira resposta, contando a decisão de cabeça, você reconheceu sozinho que a recomendação de indulto no fim do voto estava ali para deixar os dois lados satisfeitos, sem uma razão própria. Na resposta seguinte, você trouxe por conta própria a retirada de Whetmore antes do lance dos dados como algo que o incomoda, mas não chegou a dizer o que esse fato muda na sua decisão, e ele não entrou no voto. A sua decisão é condenar os réus. No texto continuam sem sustentação a recomendação de clemência (que no caso já foi pedida e negada) e a ausência de qualquer fato concreto do caso. Foi uma conversa curta, e as duas coisas que você enxergou partiram de você. O passo seguinte custava uma ou duas linhas: no segundo parágrafo, no lugar da frase que diz que a justiça exige considerar o contexto, escrever o que a retirada de Whetmore faz com a sua decisão de condenar.
+
+**Nota sobre a conversa**
+
+Houve três falas minhas, contando esta. Não precisei insistir duas vezes em nenhuma pergunta. Ficou sem resposta a pergunta sobre se o voto continua correto caso a clemência seja negada: ficou aberta porque você pediu para encerrar na resposta seguinte, e não porque eu tenha largado o ponto. Você não discordou de mim nem corrigiu nada do que eu disse. Você trouxe dois pontos que eu não tinha sugerido: a percepção de que o indulto servia para agradar aos dois lados (veio antes de eu listar qualquer coisa) e a retirada de Whetmore (eu não mencionei Whetmore em nenhuma fala). Você não me pediu para escrever por você, e eu não escrevi nenhum trecho do voto. Aceitei e segui sem cobrar mais em dois momentos: na sua primeira resposta, porque a explicação do problema do indulto com as suas palavras bastava; e na última, porque você pediu para encerrar. Foi uma conversa curta em que você mesmo identificou um defeito do voto e levantou um fato do caso, sem que nada disso chegasse ao texto.
+
+Antes de colar, confira uma coisa: há aqui alguma afirmação sobre o que você disse ou fez que não corresponde ao que aconteceu? Se houver, me diga e eu corrijo.
+
+Cole esta avaliação (não o voto, não a nossa conversa inteira) como sua entrega desta atividade. Dá para entregar assim. Se em outro momento você quiser melhorar o voto, a conversa pode continuar daqui.

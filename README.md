@@ -58,12 +58,15 @@ nota saem num arquivo de entrega. Os textos em `assistentes/` são cópias dos
 prompts portáteis, geradas por `scripts/montar_assistentes.py`: a fonte de cada
 um é o repositório do assistente, ou o artifact, no caso do Miguel.
 
-**Este formato foi testado três vezes**, com um agente e um estudante simulado
-(conversas de três rodadas: o Quim duas vezes e a Ana uma). Não houve conversa de
-aula nem medição. Os testes acharam duas falhas: uma citação do rascunho digitada
-com uma palavra trocada, e a avaliação atribuindo ao estudante uma iniciativa que
-era do agente, nas três conversas. O `AGENTS.md` foi ajustado para as duas sem nova
-medição, e a segunda correção ainda não foi verificada. O registro da conversa é uma hipótese sobre
+**Este formato foi testado cinco vezes por agente e uma em chat**, com um estudante
+simulado (conversas de três rodadas: o Quim três vezes por agente e a Ana duas, mais
+o Quim em chat). Não houve conversa de aula nem medição. Os testes acharam duas
+falhas: uma citação do rascunho digitada com uma palavra trocada, e a avaliação
+atribuindo ao estudante uma iniciativa que era do agente (nas três primeiras
+conversas, e no chat). Depois que o `AGENTS.md` passou a exigir o registro da
+primeira fala e a conferência da iniciativa, as duas conversas seguintes por agente
+tiveram a nota sobre a conversa certa, e a avaliação da Ana ainda atribuiu ao
+estudante uma conclusão que foi dela. Duas conversas não provam a correção. O registro da conversa é uma hipótese sobre
 como tornar a nota mais fiel.
 
 O pedido usa só o git e arquivos da pasta e não depende do Windows: no Linux muda apenas a instalação do agente.

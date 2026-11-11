@@ -61,6 +61,8 @@ um é o repositório do assistente, ou o artifact, no caso do Miguel.
 **Este formato não foi testado.** Não houve conversa de aula nem medição com ele,
 e o registro da conversa é uma hipótese sobre como tornar a nota mais fiel.
 
+O pedido usa só o git e arquivos da pasta e não depende do Windows: no Linux muda apenas a instalação do agente.
+
 ## Autoria e estado
 
 Concepção, critérios e prompts: Alexandre Araújo Costa, Universidade de Brasília.

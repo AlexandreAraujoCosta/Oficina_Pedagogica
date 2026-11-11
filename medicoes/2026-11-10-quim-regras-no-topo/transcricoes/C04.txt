@@ -1,0 +1,38 @@
+[ASSISTENTE]
+Oi, eu sou o Quim. Estou aqui para ler com você a sua reescrita de "Teoria do Medalhão" trazida para os dias de hoje. Não vou corrigir o texto nem lhe entregar uma versão certa. Vou conversar com ele, e com você, até ele ficar mais seu do que já é.
+
+Li o rascunho. Há duas coisas nele que puxam para lados opostos, e quero dizer as duas.
+
+O tio abre a boca e enumera: primeiro a regra de ouro, segundo os autores da moda, terceiro a opinião de todos. Logo depois vem "O mundo premia o agradável, e o agradável não diz nada". Aqui o próprio tio diz em voz alta o que a cena deveria deixar o leitor descobrir sozinho. A pergunta do Caio ("Mas e se eu quiser dizer o que penso?") também funciona mais como gancho para a próxima lição do que como reação de alguém que está ali. Esse conjunto (lista numerada, moral explicada, pergunta de deixa) é muito comum em texto que uma IA produz quando recebe um pedido genérico.
+
+Ao mesmo tempo há o relógio que o tio acerta sempre com três minutos de atraso, e há o Caio que acha o conselho uma armadilha e mesmo assim anota tudo no celular, "para o caso de precisar". Esses detalhes não explicam nada, e por isso dizem mais do que as falas do tio.
+
+Por isso quero lhe perguntar diretamente, sem acusação nenhuma: este texto saiu de uma IA e você o trouxe sem mexer depois, ou passou pelas suas mãos em algum ponto? Se passou, me diga onde.
+
+[ESTUDANTE]
+(Estudante.)Saiu de uma IA sim. O relógio atrasado e o tio desembargador fui eu que pus, o resto veio quase como estava. E eu também acho que a frase do tio sobre o agradável explica demais, mas não sei o que botar no lugar.
+
+[ASSISTENTE]
+Obrigado pela franqueza, isso ajuda a saber por onde começar. E vale notar quais foram as duas coisas que você pôs: são justamente as que não se explicam sozinhas no texto.
+
+Sobre a frase do agradável, não vou lhe dar uma substituta, mas acho que você já tem o material na mesa. Quando um texto precisa parar de dizer e começar a mostrar, o caminho costuma ser um gesto do personagem que faça o trabalho da frase sem que ele perceba.
+
+Então volto ao que é seu. Quando você pôs o relógio que o tio acerta sempre com três minutos de atraso, o que você estava pensando sobre esse homem? Não me responda com o que fica bonito; tente dizer com as suas palavras o que esse hábito diz dele, mesmo que a ideia ainda esteja meio solta.
+
+[ESTUDANTE]
+(Estudante.)Talvez o tio estivesse sempre cumprimentando alguém pela janela, acenando para gente que passa e que ele nem conhece, e Caio percebesse que o tio acena igual para todo mundo. Mas isso eu só pensei agora, não escrevi no texto. Por hoje deu, pode encerrar.
+
+[ASSISTENTE]
+Tudo bem, encerramos aqui. A decisão é sua, e você pode voltar a esta conversa quando quiser para continuar daqui.
+
+Antes da avaliação, uma palavra franca sobre a imagem que você acabou de me trazer. O tio que acena igual para todo mundo pela janela, e o sobrinho que percebe isso, é uma cena que mostra sem dizer: ninguém precisa explicar que o agradável não diz nada, porque o aceno indistinto já diz. Só que ela ainda está na nossa conversa e não no texto, e por isso não posso contá-la como parte do trabalho. Se em algum momento você quiser escrevê-la, ainda que numa frase, o texto melhora; fica a oferta.
+
+**Avaliação**
+
+O texto não chegou ao patamar mínimo desta atividade. O rascunho chegou com vários padrões de texto gerado sem retrabalho (o tio enumera conselhos numerados, explica a moral em voz alta, e o sobrinho faz uma pergunta que só serve de deixa para a próxima lição), e nenhum deles foi alterado no texto durante a conversa. Há duas contribuições suas já no rascunho, o tio desembargador aposentado e o relógio acertado com três minutos de atraso, e são os únicos trechos que não se explicam. Na conversa, você reconheceu sozinho que a frase do tio sobre o agradável explica demais e, ao ser perguntado sobre o relógio, imaginou uma cena nova (o tio que cumprimenta da janela qualquer pessoa que passa, do mesmo jeito) que resolveria esse problema por gesto, mas a cena não chegou a ser escrita. O texto também está bem abaixo da extensão pedida. O esforço foi curto: houve percepção real do defeito e uma ideia própria, sem passagem para o papel.
+
+**Nota sobre a conversa**
+
+Tivemos três rodadas, contando a minha abertura. Não precisei repetir nenhuma pergunta. A pergunta sobre o que o relógio atrasado diz do tio ficou sem resposta direta: você respondeu com outra imagem, a do aceno pela janela, que eu não tinha sugerido. Você não discordou de mim nem corrigiu nada do que eu disse; concordou com a minha observação sobre a frase do agradável. Não me pediu para escrever por você, embora tenha dito que não sabia o que pôr no lugar daquela frase. Foi uma conversa em que você trabalhou pouco tempo, mas o que trouxe foi seu.
+
+Antes de colar, confira uma coisa: há nesta avaliação ou na nota alguma afirmação sobre o que você disse ou fez que não corresponde ao que aconteceu? Se houver, me diga e eu corrijo. Se estiver tudo certo, cole esta avaliação (não o texto reescrito, não a nossa conversa inteira) como sua entrega desta atividade.

@@ -1,0 +1,9 @@
+# Mapa agente -> braço (não mostrar ao avaliador)
+abafaa127c21c8ca7 A1
+a51ba062c25028bfa A2
+a25957a04eb9ba452 A3
+a0d5ebf2b920dd223 A4
+a752bb4125d74d8af B1
+a99b67669f279c724 B2
+a6b6918b120cf7e3a B3
+afbe4319dd33db175 B4

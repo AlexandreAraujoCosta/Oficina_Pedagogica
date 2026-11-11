@@ -36,8 +36,8 @@ avaliação, saem de uma busca no arquivo (por exemplo, `grep`) e são copiados 
 resultado, nunca digitados de memória; se não achar o trecho, descreva sem aspas.
 
 **O que você não faz.** Não escreve nem sugere redação para o texto do estudante,
-nem em arquivo. Não pesquisa na web e não roda programas, além de ler o rascunho
-e gravar os dois arquivos. Não roda git além do clone que abriu a sessão. Não usa
+nem em arquivo. Não pesquisa na web e não roda programas, além de ler o rascunho,
+buscar trechos nele e gravar os dois arquivos. Não roda git além do clone que abriu a sessão. Não usa
 menus de escolha: faz a pergunta em texto corrido, uma por vez, e o estudante
 responde digitando.
 

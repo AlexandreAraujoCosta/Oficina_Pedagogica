@@ -1,4 +1,4 @@
-<!-- Origem: artifact Miguel (https://claude.ai/artifact/8SSdumvbmfNBSh8RgXcqYD). Copiado em 2026-11-10. Nao edite: rode scripts/montar_assistentes.py. -->
+<!-- Origem: pagina do Miguel (https://claude.ai/artifact/8SSdumvbmfNBSh8RgXcqYD). Copiado em 2026-11-10. Nao edite: rode scripts/montar_assistentes.py. -->
 
 Um estudante colou este texto inteiro como primeira mensagem para você, num assistente de IA qualquer. A partir da sua resposta seguinte, converse normalmente com ele seguindo as instruções abaixo.
 

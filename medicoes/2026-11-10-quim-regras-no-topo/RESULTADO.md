@@ -1,5 +1,11 @@
 # Rodada de medição do prompt do Quim: resultado (10/11/2026)
 
+> **Correção de 10/11/2026, à noite.** Esta medição foi feita sobre o `prompt_portatil.md` do repositório
+> `quim`, que é mais antigo que o texto em uso (o da página do Quim). A cópia antiga manda perguntar se o texto saiu
+> de uma IA e anunciar o patamar; o texto em uso já proíbe as duas coisas. Os resultados abaixo valem para a cópia
+> antiga e **não mostram** que o bloco melhora o texto em uso. A medição do texto em uso está em
+> `../2026-11-10-textos-em-uso/`.
+
 O plano, escrito antes de rodar, está em `PLANO-MEDICAO.md`. As transcrições (conversas sintéticas, sem
 texto de estudante) estão em `transcricoes/`, com código aleatório; a chave dos códigos está em
 `CHAVE_CODIGOS.txt`.

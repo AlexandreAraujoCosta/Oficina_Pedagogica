@@ -54,9 +54,10 @@ clique para copiar.
 O que muda em relação ao chat: o rascunho é um arquivo da pasta, e não texto
 colado; o agente mantém um registro da conversa, rodada a rodada, de onde sai a
 nota sobre a conversa, em vez de reconstruí-la de memória; e a avaliação com a
-nota saem num arquivo de entrega. Os textos em `assistentes/` são cópias dos
-prompts portáteis, geradas por `scripts/montar_assistentes.py`: a fonte de cada
-um é o repositório do assistente, ou o artifact, no caso do Miguel.
+nota saem num arquivo de entrega. Os textos em `assistentes/` são cópias do prompt
+da página em uso de cada assistente (a que o estudante copia), geradas por
+`scripts/montar_assistentes.py`. O `prompt_portatil.md` dos repositórios `quim` e `ana`
+não é a fonte: em 10/11/2026 estava defasado em relação às páginas.
 
 **Este formato foi testado cinco vezes por agente e uma em chat**, com um estudante
 simulado (conversas de três rodadas: o Quim três vezes por agente e a Ana duas, mais

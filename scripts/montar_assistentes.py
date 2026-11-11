@@ -1,57 +1,65 @@
 # -*- coding: utf-8 -*-
-"""Monta assistentes/<nome>.md a partir da fonte de cada prompt, sem redigitar nada.
+"""Monta assistentes/<nome>.md a partir da PAGINA EM USO de cada assistente, sem redigitar nada.
 
-Quim e Ana: prompt_portatil.md dos repositorios quim e ana (via `gh api`).
-Miguel: o texto que o artifact dele traz num <script id="dados" type="application/json">;
-quem roda passa o index.html salvo do artifact em --miguel.
+A fonte e o texto que o estudante copia: o prompt da pagina publicada (artifact) de cada assistente. O arquivo
+prompt_portatil.md dos repositorios quim e ana pode estar defasado em relacao a ela (em 10/11/2026 estava), e por
+isso nao e mais usado aqui.
 
-    python scripts/montar_assistentes.py --miguel caminho/index.html
+A pagina traz o prompt num <textarea id="prompt"> (Quim, Ana) ou num <script id="dados" type="application/json">
+(Miguel). Quem roda passa o index.html salvo de cada artifact:
 
-Cada arquivo gerado abre com uma linha de origem e data. Nao edite os arquivos
-gerados: a fonte e o repositorio ou o artifact do assistente, e este programa os recopia.
+    python scripts/montar_assistentes.py --quim q.html --ana a.html --miguel m.html
+
+Cada arquivo gerado abre com uma linha de origem e data. Nao edite os arquivos gerados.
 """
-import argparse, base64, datetime, json, re, subprocess, sys
+import argparse, datetime, html, json, re, sys
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 HOJE = datetime.date.today().isoformat()
 
+ORIGENS = {
+    "quim": "pagina do Quim (https://claude.ai/artifact/YBpbYtMFFv3YMaDCmqhA4n)",
+    "ana": "pagina da Ana (https://claude.ai/artifact/E1GN8k2cNaoHiZ7bTWPcdS)",
+    "miguel": "pagina do Miguel (https://claude.ai/artifact/8SSdumvbmfNBSh8RgXcqYD)",
+}
 
-def do_github(repo):
-    saida = subprocess.run(
-        ["gh", "api", f"repos/AlexandreAraujoCosta/{repo}/contents/prompt_portatil.md", "--jq", ".content"],
-        capture_output=True, check=True).stdout
-    return base64.b64decode(saida).decode("utf-8")
 
-
-def do_artifact(caminho):
+def prompt_da_pagina(caminho):
     s = Path(caminho).read_text(encoding="utf-8")
-    m = re.search(r'<script id="dados" type="application/json">(.*?)</script>', s, re.S)
-    if not m:
-        sys.exit("nao achei o <script id=\"dados\"> no arquivo do Miguel")
-    texto = json.loads(m.group(1))
-    if not isinstance(texto, str) or len(texto) < 1000:
-        sys.exit("o conteudo de dados nao parece o prompt do Miguel")
-    return texto
+    m = re.search(r'<textarea id="prompt"[^>]*>(.*?)</textarea>', s, re.S)
+    if m:
+        texto = html.unescape(m.group(1))
+    else:
+        m = re.search(r'<script id="dados" type="application/json">(.*?)</script>', s, re.S)
+        if not m:
+            sys.exit(f"nao achei o prompt em {caminho}: nem textarea#prompt nem script#dados")
+        texto = json.loads(m.group(1))
+    if not isinstance(texto, str) or len(texto) < 10000:
+        sys.exit(f"o texto achado em {caminho} nao parece um prompt completo")
+    return texto.strip()
 
 
-def grava(nome, texto, origem):
-    cab = f"<!-- Origem: {origem}. Copiado em {HOJE}. Nao edite: rode scripts/montar_assistentes.py. -->\n\n"
+def grava(nome, texto):
+    cab = f"<!-- Origem: {ORIGENS[nome]}. Copiado em {HOJE}. Nao edite: rode scripts/montar_assistentes.py. -->\n\n"
     (RAIZ / "assistentes").mkdir(exist_ok=True)
-    (RAIZ / "assistentes" / f"{nome}.md").write_text(cab + texto.strip() + "\n", encoding="utf-8", newline="\n")
+    (RAIZ / "assistentes" / f"{nome}.md").write_text(cab + texto + "\n", encoding="utf-8", newline="\n")
     print(f"{nome}: {len(texto)} caracteres")
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--miguel", help="index.html salvo do artifact do Miguel")
+    for n in ("quim", "ana", "miguel"):
+        ap.add_argument(f"--{n}", help=f"index.html salvo do artifact do {n.capitalize()}")
     a = ap.parse_args()
-    grava("quim", do_github("quim"), "repositorio AlexandreAraujoCosta/quim, prompt_portatil.md")
-    grava("ana", do_github("ana"), "repositorio AlexandreAraujoCosta/ana, prompt_portatil.md")
-    if a.miguel:
-        grava("miguel", do_artifact(a.miguel), "artifact Miguel (https://claude.ai/artifact/8SSdumvbmfNBSh8RgXcqYD)")
-    else:
-        print("miguel: nao gerado (passe --miguel)")
+    feito = False
+    for n in ("quim", "ana", "miguel"):
+        caminho = getattr(a, n)
+        if caminho:
+            grava(n, prompt_da_pagina(caminho))
+            feito = True
+    if not feito:
+        sys.exit("passe ao menos um de --quim, --ana, --miguel")
 
 
 if __name__ == "__main__":
